@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HafizTech | Arduino Mastery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #222;
+      color: #fff;
+    }
+
+    .projects {
+      padding: 2rem;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #0078D7;
+      text-decoration: none;
+    }
+
+    .contact {
+      padding: 2rem;
+      background: #eee;
+      text-align: center;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HafizTech</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Where Innovation Meets Insanity</h2>
+    <p>Explore Arduino builds, tutorials, and kits by Hafiz.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Smart Inventory Tracker</h3>
+        <p>RFID + LCD + buzzer system to manage your tech kits.</p>
+        <a href="#">View Guide</a>
+      </div>
+      <div class="card">
+        <h3>IoT Weather Station</h3>
+        <p>Live temperature updates on your site using ESP8266.</p>
+        <a href="#">View Guide</a>
+      </div>
+      <div class="card">
+        <h3>Active Aero Simulation</h3>
+        <p>Servo-powered rear wing inspired by Koenigsegg.</p>
+        <a href="#">View Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Hafiz</h2>
+    <p>Email: <a href="mailto:hafis1505@gmail.com">hafis1505@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HafizTech. Built with passion in Sri Lanka.</p>
+  </footer>
+
+  <script>
+    console.log("Welcome to HafizTech!");
+  </script>
+</body>
+</html>
